@@ -12,3 +12,6 @@ incorporates propagation of uncertainties through the interpolation
 - IMPORTANT: The uncertainty propagation assumes that the value at each 
 point are completely independent. Think carefully about this before you
 use it.
+
+
+TODO: Still needs documentation finished.
