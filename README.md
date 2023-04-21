@@ -9,5 +9,6 @@ using Delauney triangulation
 incorporates propagation of uncertainties through the interpolation
 - Much slower than `scipy.interpolate.LinearNDInterpolator` since 
 `scipy` uses just-in-time compilation, while this code does not
-- IMPORTANT: Uncertainty propagation assumes that the value at each 
-point are completely independent, which is likely *not true*
+- IMPORTANT: The uncertainty propagation assumes that the value at each 
+point are completely independent. Think carefully about this before you
+use it.
